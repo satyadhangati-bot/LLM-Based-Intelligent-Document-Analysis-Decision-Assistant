@@ -16,3 +16,14 @@ tool-augmented reasoning.
 
 ##  System Architecture
 Document → Chunk → Embed → Retrieve → Reason → Validate → Answer
+## Tech Stack
+Python, Hugging Face Transformers, Sentence Transformers, FAISS,
+LangChain (optional), FastAPI, Pandas, NumPy
+##  Future Enhancements
+- Persistent memory for follow-up queries
+- Confidence scoring for answers
+- Web-based UI
+- Cloud deployment on AWS/Azure
+
+##  License
+MIT
