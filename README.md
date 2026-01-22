@@ -5,7 +5,7 @@ An LLM-powered system that analyzes large collections of unstructured documents
 summaries and decisions using Retrieval-Augmented Generation (RAG) and
 tool-augmented reasoning.
 
-## 🚀 Features
+##  Features
 - Document ingestion and intelligent chunking
 - Semantic search using vector embeddings
 - Retrieval-Augmented Generation (RAG)
@@ -14,4 +14,5 @@ tool-augmented reasoning.
 - Validation layer to reduce hallucinations
 - Modular and scalable design
 
-## 🧠 System Architecture
+##  System Architecture
+Document → Chunk → Embed → Retrieve → Reason → Validate → Answer
